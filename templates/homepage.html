@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
   <!-- Favicons -->
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  
+
   <!-- Main Stylesheet File -->
   <link href="../static/css/homepage.css" rel="stylesheet">
   <!--JavaScript File-->
-  
+
   <!-- =======================================================
     Theme Name: NewBiz
     Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
@@ -26,75 +28,112 @@
 </head>
 
 <body>
-    <header id="header" class="fixed-top">
-        <div class="container">
-    
-          <div class="logo float-left">
-            <h1 style="color: #2B7A78; font-weight: 500; font-size: 40px;">Q4D</h1>
-          </div>
-    
-          <nav class="main-nav float-right d-none d-lg-block col-lg-6">
-            <ul>
-              <li class="active"><a href="#intro">Screening Test</a></li>
-              <li><a href="{{ url_for('homepage', _anchor='whatis') }}">What's Dyslexia?</a></li>
-              <li><a href="{{ url_for('homepage', _anchor='about') }}">About Us</a></li>
-              <form method="GET" action="{{url_for('login')}}">
-              <li class = "button_element"><button class  = "darkgreen" id = "login_button">LOGIN</button></li>
-            </form>
-              
-            </ul>
-          </nav><!-- .main-nav -->
-          
-        </div>
-      </header><!-- #header -->
+  <header id="header" class="fixed-top">
+    <div class="container">
 
-      <div class="middle">
-
-        <div class="middle_left ">
-          
-        </div>
-        <div class="middle_right">
-          <div class="heading">
-            Picture-Word - MCQ
-          </div>
-          <div class="text">
-            Subheading text here. Dummy Text: Dyslexia is a neurological symptom wherein an individual experiences difficulty reading.
-          </div>
-          <form action='{{url_for("homepage")}}' method="POST">
-          <button> Take Test </button>
-        </form>
-        </div>
-      </div>
-      <div class="bottom"> 
-        <div class="bottom-box">
-
-        </div>
-        <div class="bottom-box">
-          
-        </div>
-        <div class="bottom-box">
-          
-        </div>
-
-      </div>
-      <div id="whatis" class="another_bottom"> 
-
-      
-      </div>
-      
-      <div id="about" class="second_last"> 
-      
-      </div>
-      <div class="last"> 
-      
+      <div class="logo float-left">
+        <h1 style="color: #2B7A78; font-weight: 500; font-size: 40px;">Q4D</h1>
       </div>
 
-      
-      <script src="../static/lib/jquery/jquery.min.js"></script>
-      <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
-      <script src="../static/lib/mobile-nav/mobile-nav.js"></script>
-      <script src="../static/lib/wow/wow.min.js"></script>
-      <script src="../static/js/DyslexiaScreen_After_1_jquery.js"></script>
-      
+      <nav class="main-nav float-right d-none d-lg-block col-lg-6">
+        <ul>
+          <li class="active"><a href="#intro">Screening Test</a></li>
+          <li><a href="#whatis">What's Dyslexia?</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li class="button_element"><button class="darkgreen" id="login_button">LOGIN</button></li>
+
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <div class="middle">
+
+    <div class="middle_left ">
+      <img src="../static/images/homepage_man.jpg" />
+    </div>
+    <div class="middle_right">
+      <div class="heading">
+        Dyslexia Test in Urdu
+      </div>
+      <div class="text">
+        The following survey is a series of tests designed in Urdu to collect data to create a tool that will identify
+        patterns specific to dyslexia.
+      </div>
+
+      <form action='{{url_for("homepage")}}' method="POST">
+        <button> Take Test </button>
+      </form>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="bottom-box">
+      <img src="../static/images/home_fill_info.jpg" />
+    </div>
+    <div class="bottom-box">
+      <img src="../static/images/login.jpg" />
+    </div>
+    <div class="bottom-box">
+      <img src="../static/images/register.jpg" />
+    </div>
+    <p class="first">
+      Step 1:
+      <br>
+      share some info
+    </p>
+    <p class="second">
+      Step 2:
+      <br>
+      take our test
+    </p>
+    <p class="third">
+      step 3:
+      <br>
+      register
+    </p>
+  </div>
+  <div id="whatis" class="another_bottom">
+    <p class="headingg">
+      What is Dyslexia?
+    </p>
+    <p class="textt">
+      Dyslexia is a learning disorder that involves difficulty reading due to problems identifying speech sounds and
+      learning how they relate to letters and words (decoding). Also called reading disability, dyslexia affects areas
+      of the brain that process language.
+      <br>
+      <br>
+      People with dyslexia have normal intelligence and usually have normal vision. Most children with dyslexia can
+      succeed in school with tutoring or a specialized education program. Emotional support also plays an important
+      role.
+      <br>
+      <br>
+      Though there's no cure for dyslexia, early assessment and intervention result in the best outcome. Sometimes
+      dyslexia goes undiagnosed for years and isn't recognized until adulthood, but it's never too late to seek help.
+    </p>
+
+  </div>
+
+  <div id="about" class="second_last">
+    <p class="headingg">
+      About Us
+    </p>
+    <p class="textt">
+      We are a group of students from LUMS. Our goal is to make a tool to help urdu speaking dyslexic people
+    </p>
+
+  </div>
+  <div class="last">
+
+  </div>
+
+
+  <script src="../static/lib/jquery/jquery.min.js"></script>
+  <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../static/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="../static/lib/wow/wow.min.js"></script>
+  <script src="../static/js/DyslexiaScreen_After_1_jquery.js"></script>
+
 </body>
+
 </html>

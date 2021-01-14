@@ -23,18 +23,29 @@ body {
     float:left;
     margin-bottom: 2%;
     border: 1px solid black;
+    position: relative;
+}
+.middle_left img {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    width: 92%;
+    height: 90%;
+	transform: translate(-50%,-50%);
+    object-fit: cover;
+	position: center;
 }
 
 .middle_right {
 
 	height: 80%;
 	width: 40%;
-    margin-top: 5%;
-    margin-right:8%;
-    margin-bottom: 2%;
+  margin-top: 5%;
+  margin-right:8%;
+  margin-bottom: 2%;
 	align-items: center;
-    position: relative;
-    float: right;
+  position: relative;
+  float: right;
 
 }
 
@@ -48,8 +59,7 @@ body {
 	text-decoration: none;
   display: inline-block;
   font-family: 'Nunito';
-
-    font-size: 16px;
+  font-size: 150%;
     padding: 2% 8%;
     margin-top: 3%;
 }
@@ -64,7 +74,7 @@ body {
 }
 
 .text {
-    font-size: 120%;
+    font-size: 100%;
 	word-wrap: break-word;
     position: relative;
     margin-top: 2%;
@@ -81,18 +91,54 @@ body {
     align-items: center;
     position: relative;
 }
+.first{
+  float: left;
+  padding-bottom: 2%;
+  margin-right: 12%;
+  margin-left: 11%;
+  font-size: 100%;
+  text-align: center;
+}
+.second{
+  float: left;
+  padding-bottom: 2%;
+  margin-right: 12%;
+  margin-left: 14%;
+  font-size: 100%;
+  text-align: center;
+}
+.third{
+  float: left;
+  padding-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 14%;
+  font-size: 100%;
+  text-align: center;
+}
 
 .bottom-box {
-    background-color: white;
-    width:17%;
-    height:60%;
-    margin-left:8%;
-    margin-right: 8%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    float:left;
-    position: relative;
+  background-color: white;
+  width:17%;
+  height:60%;
+  margin-left:8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  float:left;
+  position: relative;
 }
+
+.bottom-box img {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    width: 92%;
+    height: 90%;
+	transform: translate(-50%,-50%);
+    object-fit: cover;
+	position: center;
+}
+
 .another_bottom{
     background-color: white;
     height: 100%;
@@ -100,6 +146,24 @@ body {
     float: left;
     align-items: center;
     position: relative;
+}
+
+.textt {
+  padding-left: 5%;
+  padding-top: 0%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-size: 120%;
+}
+.headingg {
+  font-size: 200%;
+  padding-left: 5%;
+  word-wrap: break-word;
+  position: relative;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  font-family: 'Nunito';
+
 }
 .second_last{
     background-color:#F5FCFB;
@@ -109,6 +173,7 @@ body {
     align-items: center;
     position: relative;
 }
+
 .last{
     background-color:#3AAFA9;
     height: 30%;
