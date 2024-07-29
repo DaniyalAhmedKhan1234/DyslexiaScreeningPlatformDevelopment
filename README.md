@@ -22,7 +22,7 @@ Dyslexia is a common learning difficulty that affects reading and writing skills
 
 - **Interactive Assessments:** Engaging tools for evaluating reading and writing skills.
 - **Data Collection:** Systematic data gathering for research and analysis.
-- **User-Friendly Interface:** Easy navigation for users of all age groups.
+- **User-Friendly Interface:** Easy navigation for users of all age groups, especially those facing Dyslexia.
 - **Multilingual Support:** Primarily in Urdu, with potential for additional languages.
 - **Reports and Feedback:** Detailed performance reports and constructive feedback.
 
@@ -58,25 +58,6 @@ The platform includes several assessment tools such as:
 - **Reading Comprehension Tests:** Evaluates the ability to understand written text.
 - **Writing Exercises:** Assesses spelling, grammar, and overall writing skills.
 - **Phonological Awareness Tasks:** Measures the recognition of sounds and their relationships to letters.
-
-## Contributing
-
-We welcome contributions to this project. To contribute, please follow these steps:
-
-1. **Fork the repository.**
-2. **Create a new branch:**
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. **Make your changes and commit them:**
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. **Push to the branch:**
-   ```bash
-   git push origin feature-branch
-   ```
-5. **Open a pull request.**
 
 ## License
 
