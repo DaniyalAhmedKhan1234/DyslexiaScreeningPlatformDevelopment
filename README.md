@@ -1,6 +1,6 @@
 # Dyslexia Screening Platform
 
-Welcome to the **Dyslexia Screening Platform Development** Backend Codebase repository. It is written in Python's Flask API. This project is an online interactive tool designed for collecting data and assessing dyslexia in the Urdu language. It is targeted at people of various age groups, aiming to introduce guidelines to improve reading and writing abilities for individuals with dyslexia in Pakistan.
+Welcome to the **Dyslexia Screening Platform Development** Backend. The backend app is written in Python's Flask API and front-end architecture is written in HTML, CSS and jQuery. This project is an online interactive tool designed for collecting data and assessing dyslexia in the Urdu language. It is targeted at people of various age groups, aiming to introduce guidelines to improve reading and writing abilities for individuals with dyslexia in Pakistan.
 
 ## Table of Contents
 
