@@ -10,8 +10,6 @@ Welcome to the **Dyslexia Screening Platform Development** Backend. The backend 
 - [Usage](#usage)
 - [Data Collection](#data-collection)
 - [Assessment Tools](#assessment-tools)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -57,11 +55,7 @@ The platform includes several assessment tools such as:
 
 - **Reading Comprehension Tests:** Evaluates the ability to understand written text.
 - **Writing Exercises:** Assesses spelling, grammar, and overall writing skills.
-- **Phonological Awareness Tasks:** Measures the recognition of sounds and their relationships to letters.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+- **Phonological Awareness Tasks:** Measures the recognition of sounds and their relationships to letters (individually and in combination).
 
 ## Contact
 
