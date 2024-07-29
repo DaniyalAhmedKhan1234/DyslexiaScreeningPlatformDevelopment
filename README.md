@@ -1,6 +1,6 @@
 # Dyslexia Screening Platform
 
-Welcome to the **Dyslexia Screening Platform Development** repository. This project is an online interactive tool designed for collecting data and assessing dyslexia in the Urdu language. It is targeted at people of various age groups, aiming to introduce guidelines to improve reading and writing abilities for individuals with dyslexia in Pakistan.
+Welcome to the **Dyslexia Screening Platform Development** Backend Codebase repository. It is written in Python's Flask API. This project is an online interactive tool designed for collecting data and assessing dyslexia in the Urdu language. It is targeted at people of various age groups, aiming to introduce guidelines to improve reading and writing abilities for individuals with dyslexia in Pakistan.
 
 ## Table of Contents
 
@@ -46,16 +46,6 @@ To set up this project locally, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
-## Usage
-
-To run the platform, execute the following command:
-
-```bash
-python app.py
-```
-
-This will start the server, and you can access the application via `http://localhost:5000` in your web browser.
 
 ## Data Collection
 
